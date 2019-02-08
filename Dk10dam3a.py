@@ -31,7 +31,7 @@ ki = LineClient(authToken="EBmAePfSVOomFY1tt9F9.UG7/XfSMCeDcYAJgKpnmoq.UjekLNtrq
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kk = LineClient(authToken="EBCgQTnQQ1loHq6d2AG8.X3NCCd3HGEMit3uKrKGWQa.H46RQ+EfH/bwiYFgsEjbPWS6UPqIWoLDKRUn/+IV/s=")
+kk = LineClient(authToken="EBCcsDIRlQkGj4qqHuE8.X3NCCd3HGEMit3uKrKGWQa.TU4fdE6aFOd08oO7VLi52aesfpL0lID1xC+QHZla8vM=")
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Channel Access Token : " + str(channel.channelAccessToken))
 
