@@ -3152,7 +3152,7 @@ def bot(op):
                                 else:sil1 = "sakit"
                                 sw.sendMessage(to, "kesehatan\nKick : {} \nInvite : {}".format(sil1,sil))
 
-                        elif cmd == "glist1":
+                        elif cmd == "gl1":
                             if msg._from in admin:
                                ma = ""
                                a = 0
@@ -3164,7 +3164,7 @@ def bot(op):
                                    ma += "╠ " + str(a) + ". " +G.name+ "\n"
                                ki.sendMessage(msg.to,"╔══[ GROUP LIST ]\n║\n"+ma+"║\n╚══[ Total「"+str(len(gid))+"」Groups ]")
 
-                        elif cmd == "glist2" 
+                        elif cmd == "gl2":
                             if msg._from in admin:
                                ma = ""
                                a = 0
@@ -3176,7 +3176,7 @@ def bot(op):
                                    ma += "╠ " + str(a) + ". " +G.name+ "\n"
                                kk.sendMessage(msg.to,"╔══[ GROUP LIST ]\n║\n"+ma+"║\n╚══[ Total「"+str(len(gid))+"」Groups ]")
 
-                        elif cmd == "glist3":
+                        elif cmd == "gl3":
                             if msg._from in admin:
                                ma = ""
                                a = 0
