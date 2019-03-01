@@ -31,23 +31,23 @@ ki = LineClient(authToken="ECblCKhopPA546v0Niuc.IsNatt5+ns1rX2qBDMfF7a.hGNiC2rsm
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kk = LineClient(authToken="ECu70JDx1ukkJbtDG7t8.jxsEB/sjgVuXDJkdEbvmQa.WJLEoiueODdbx6gep97JVaTYTM5nwNcqR0S4qIjarjw=")
+kk = LineClient(authToken="EC0fe2QvujsYnzOe9L6b.BpDu14Yez1WV+RciR4Ew/W.+JDAheRKx7CxFkkgxPFKgxLDCp2tqJPwBzl2Vj7VhZ8=")
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kc = LineClient(authToken="ECWIn2O9gowqSfc5lAye.btTpleY+Vvj4NFLeEipgRG.iJ+CpIRhOrxKztRc7hCaRIeLAVrcoz2LmboCIOqkebY=")
+kc = LineClient(authToken="ECNMvE8tQuFsWVldYOvf.9ipBCeN5/61t6Lt9KHXNhW./Ho0sARP7z6tjA32IP/QTeFcSCNzc6xlZwm57lCOkNw=")
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kb = LineClient(authToken="ECQnWcaGOX7ykE3qRNG9.ru5XOlhZJMtTwbSPkV6wQq.aoatTLmsaF4sOT2WiufB5PC1TlI88vVsDjPzz9dH7DU=")
+kb = LineClient(authToken="ECw66lpJ6Zl7wcD3gKqb.6VuCn+0h8X1EezLnDh96cW.UAoD8a5vSdg8BMMqRXlas54ZmIWa2QBmLZK/1b119T0=")
 kb.log("Auth Token : " + str(kb.authToken))
 kb.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kd = LineClient(authToken="ECTDScrPdxEtgJaHvR0b.q/bW3Xf2T0y0TLJlmX2yAW.w6rs+kjpuK8fOlAD/xnj1Ui/6scuf5ChWAN1Sok+Tno=")
+kd = LineClient(authToken="ECLi44l70GKrILuvRQA8.EIOegnd0kHtXmenwz074ga.+Pi2bQkVRN7H73gt2IbPsgSaT000EppSoCfygOg21q4=")
 kd.log("Auth Token : " + str(kd.authToken))
 kd.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ke = LineClient(authToken="ECkwVbDjE2BKTIafbC58.EIOegnd0kHtXmenwz074ga.3oEgbtxkEudzceh+aPo012ATem9ZUKbSCwyERt5wHCY=")
+ke = LineClient(authToken="ECfRX85wCktO5R2TmDYb.q/bW3Xf2T0y0TLJlmX2yAW.SrEl0P1WKcI+vsHKAYYvDo5sMocFFUKNONrPU8L/8TY=")
 ke.log("Auth Token : " + str(ke.authToken))
 ke.log("Channel Access Token : " + str(channel.channelAccessToken))
 
@@ -55,21 +55,21 @@ kf = LineClient(authToken="88")
 kf.log("Auth Token : " + str(kf.authToken))
 kf.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-kj = LineClient(authToken="ECrjWlcxyoNl6NX1F6ef.9ipBCeN5/61t6Lt9KHXNhW.tgoIXo+pz3JNL9gkMJP+lb6QtSCxQ2R3chlxC6fAW7c=")
+kj = LineClient(authToken="99")
 kj.log("Auth Token : " + str(kj.authToken))
 kj.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-sw = LineClient(authToken="EC0fe2QvujsYnzOe9L6b.BpDu14Yez1WV+RciR4Ew/W.+JDAheRKx7CxFkkgxPFKgxLDCp2tqJPwBzl2Vj7VhZ8=")
+sw = LineClient(authToken="00")
 sw.log("Auth Token : " + str(sw.authToken))
 sw.log("Channel Access Token : " + str(channel.channelAccessToken))
 print("\nBOT is login mr dam3a .......\n")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u92da257539ee230b60c1d460bab85015 ","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140","u454e71a0b1f38e64ed581b292afe96a9"]
-owner = ["u92da257539ee230b60c1d460bab85015 ","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140","u454e71a0b1f38e64ed581b292afe96a9"]
-admin = ["u92da257539ee230b60c1d460bab85015 ","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140","u454e71a0b1f38e64ed581b292afe96a9"]
-staff = ["u92da257539ee230b60c1d460bab85015","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140","u454e71a0b1f38e64ed581b292afe96a9"]
+creator = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9","u70ed221a0ef870ddee1b5ebdfcfea165","u12e8623c83376dbd0d9da3cc9ce4ff98","u5078e707e7c6618ca36bad8b2bfdeda9","u0c421a15d7294888f47a9b7f6de10242","ua5fd9afc60fd21bf9309deaa9706e4e7","u7322005dcc60ecfeb71928df6e812b77"]
+owner = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9","u70ed221a0ef870ddee1b5ebdfcfea165","u12e8623c83376dbd0d9da3cc9ce4ff98","u5078e707e7c6618ca36bad8b2bfdeda9","u0c421a15d7294888f47a9b7f6de10242","ua5fd9afc60fd21bf9309deaa9706e4e7","u7322005dcc60ecfeb71928df6e812b77"]
+admin = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9","u70ed221a0ef870ddee1b5ebdfcfea165","u12e8623c83376dbd0d9da3cc9ce4ff98","u5078e707e7c6618ca36bad8b2bfdeda9","u0c421a15d7294888f47a9b7f6de10242","ua5fd9afc60fd21bf9309deaa9706e4e7","u7322005dcc60ecfeb71928df6e812b77"]
+staff = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9","u70ed221a0ef870ddee1b5ebdfcfea165","u12e8623c83376dbd0d9da3cc9ce4ff98","u5078e707e7c6618ca36bad8b2bfdeda9","u0c421a15d7294888f47a9b7f6de10242","ua5fd9afc60fd21bf9309deaa9706e4e7","u7322005dcc60ecfeb71928df6e812b77"]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
