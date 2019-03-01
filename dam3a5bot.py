@@ -32,17 +32,17 @@ ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
-kk = LineClient(authToken='ECu70JDx1ukkJbtDG7t8.jxsEB/sjgVuXDJkdEbvmQa.WJLEoiueODdbx6gep97JVaTYTM5nwNcqR0S4qIjarjw=')
+kk = LineClient(authToken='EC0fe2QvujsYnzOe9L6b.BpDu14Yez1WV+RciR4Ew/W.+JDAheRKx7CxFkkgxPFKgxLDCp2tqJPwBzl2Vj7VhZ8=')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='ECWIn2O9gowqSfc5lAye.btTpleY+Vvj4NFLeEipgRG.iJ+CpIRhOrxKztRc7hCaRIeLAVrcoz2LmboCIOqkebY=')
+kc = LineClient(authToken='ECNMvE8tQuFsWVldYOvf.9ipBCeN5/61t6Lt9KHXNhW./Ho0sARP7z6tjA32IP/QTeFcSCNzc6xlZwm57lCOkNw=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
-sw = LineClient(authToken='EC0fe2QvujsYnzOe9L6b.BpDu14Yez1WV+RciR4Ew/W.+JDAheRKx7CxFkkgxPFKgxLDCp2tqJPwBzl2Vj7VhZ8=')
+sw = LineClient(authToken='ECw66lpJ6Zl7wcD3gKqb.6VuCn+0h8X1EezLnDh96cW.UAoD8a5vSdg8BMMqRXlas54ZmIWa2QBmLZK/1b119T0=')
 sw.log("Auth Token : " + str(sw.authToken))
 channel4 = LineChannel(sw,sw.server.CHANNEL_ID['LINE_TIMELINE'])
 sw.log("Channel Access Token : " + str(channel4.channelAccessToken))
@@ -52,10 +52,10 @@ print ("\nBOT Is login mr dam3a......")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u92da257539ee230b60c1d460bab85015 ","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140"]
-owner = ["u92da257539ee230b60c1d460bab85015 ","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140"]
-admin = ["u92da257539ee230b60c1d460bab85015 ","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140"]
-staff = ["u92da257539ee230b60c1d460bab85015","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u63c91b1f62794e43d390db0f88bfe140"]
+creator = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9"]
+owner = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9"]
+admin = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9"]
+staff = ["u63c91b1f62794e43d390db0f88bfe140","u25749e6fe4891af53176328378154ca8","u053b4f2c4cbfbd52789df9447883c6ae","u69bf4a507b718cb1d6a1e8014df7d42b","u454e71a0b1f38e64ed581b292afe96a9"]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
