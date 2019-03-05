@@ -22,12 +22,12 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient(authToken='ECbHdnqdxaGIGvHJ1dN0.y8KBh2j5tKptKnSpIl+Hqa.QAvMRB6ujKueCsae0YkW5mJN9/NHovEFQreWsKux7lE=')
+cl = LineClient(authToken='ECryOCgHAx40OcJIXma0.y8KBh2j5tKptKnSpIl+Hqa.rP4hWhEEQ5Hwcuv94El1tTpWUrcNbsaLgMOI8wJyjO4=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
-ki = LineClient(authToken='ECblCKhopPA546v0Niuc.IsNatt5+ns1rX2qBDMfF7a.hGNiC2rsm91o81h8FPCZiGMIaQkg8MeC/zCMmWAGGGg=')
+ki = LineClient(authToken='ECV5ouXYUQ80V3FTqDtc.IsNatt5+ns1rX2qBDMfF7a.g/1SHtDvRJkVByMWgIkNKqFxha44LHfidGW16Lp+qOs=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki,ki.server.CHANNEL_ID['LINE_TIMELINE'])
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
@@ -37,7 +37,7 @@ kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk,kk.server.CHANNEL_ID['LINE_TIMELINE'])
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
-kc = LineClient(authToken='ECNMvE8tQuFsWVldYOvf.9ipBCeN5/61t6Lt9KHXNhW./Ho0sARP7z6tjA32IP/QTeFcSCNzc6xlZwm57lCOkNw=')
+kc = LineClient(authToken='EC7pDkcJD9xvLEeS4Rmf.9ipBCeN5/61t6Lt9KHXNhW.PcokEYl1WZ+4Pj7l+uSSDgzBWYfd/ukZ2CZ6g7HWXio=')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc,kc.server.CHANNEL_ID['LINE_TIMELINE'])
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
