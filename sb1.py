@@ -22,7 +22,7 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient(authToken='Ezizf2qItPhYHH2wGBQd.dTbkez9byvQdGSoZqBLYdq.7u1WQ6E0UI6F0A2cw1KFSg2w+cv7rlwg5RUQzjp4mbM=')
+cl = LineClient(authToken='EDu34ma2zLMOJVAn5eSd.pbofCiwXyvXNHzB91iwNNq.9kTODl4nQjkgbZdeo5KY/fIZa4uoAOzIlzwZQu4DYCs=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
@@ -30,10 +30,10 @@ print("\nBOT MULAI BERJALAN.......\n")
 
 poll = LinePoll(cl)
 call = cl
-creator = ["u0ed04a119f41615a8382c3b341b9720d"]
-owner = ["u0ed04a119f41615a8382c3b341b9720d"]
-admin = ["u0ed04a119f41615a8382c3b341b9720d"]
-staff = ["u0ed04a119f41615a8382c3b341b9720d"]
+creator = ["u3c13857085b1615c678596fdd485a79d"]
+owner = ["u3c13857085b1615c678596fdd485a79d"]
+admin = ["u3c13857085b1615c678596fdd485a79d"]
+staff = ["u3c13857085b1615c678596fdd485a79d"]
 lineProfile = cl.getProfile()
 mid = cl.getProfile().mid
 KAC = [cl]
