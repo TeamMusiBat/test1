@@ -22,7 +22,7 @@ from googletrans import Translator
 import youtube_dl
 #import pyimgflip
 
-cl = LineClient(authToken='EDu34ma2zLMOJVAn5eSd.pbofCiwXyvXNHzB91iwNNq.9kTODl4nQjkgbZdeo5KY/fIZa4uoAOzIlzwZQu4DYCs=')
+cl = LineClient(authToken='3gd39mf+MJDtz4K4YRAdYH0qw1iib3ZlPUccOICmTX8Fa466yoHS0uGWNAhKE7ppDopy3fJLcAog2ENpeGzUJVewlVAgELrMhv1777WAhiKfY6j1GZbdJ9OzLbRRLlTabHzM73SPEqPg4rYtxdDJcwdB04t89/1O/w1cDnyilFU=')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
